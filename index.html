@@ -1,0 +1,270 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Examen</title>
+	<link href="css/framework7.min.css" rel="stylesheet">
+<link href="css/material-icons.css" rel="stylesheet">
+<link href="css/f7-icons.css" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+</head>
+
+<body>
+	
+	<div id="app">
+      <!-- Statusbar overlay -->
+      <div class="statusbar"></div>
+
+      <!-- Your main view, should have "view-main" class -->
+      <div class="view view-main view-init">
+        
+		  	<section class="panel panel-left panel-cover">
+			  	  <div class="block">
+			 <h3>Zac Efron </h3>
+			  <a href="/profile/">
+						<img src="img/profile.jpg" class="img-fluid zac" width="50px" >
+						</a>
+			</div>
+		  
+				<div class="block">
+					<div class="list media-list">
+						<ul>
+							<li>
+								<a href="/home/" class="item-content item-link panel-close">
+									<div class="item-media">
+										<i class="material-icons">home</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">Home</h5>
+										</div>
+										
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/profile/" class="item-content item-link">
+									<div class="item-media">
+										<i class="material-icons">account_circle</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">Profile</h5>
+										</div>
+										
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/artist/" class="item-content item-link">
+									<div class="item-media">
+										<i class="material-icons">stars</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">Artist</h5>
+										</div>
+										
+									</div>
+								</a>
+							</li>
+							<li>
+								<a href="/radio/" class="item-content item-link">
+									<div class="item-media">
+									<i class="material-icons">radio</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">Radio</h5>
+										</div>
+										
+									</div>
+								</a>
+							</li>
+							
+							<li>
+								<a href="/aboutus/" class="item-content item-link">
+									<div class="item-media">
+									<i class="material-icons">face</i>
+									</div>
+									<div class="item-inner">
+										<div class="item-title-row">
+										<h5 class="item-title">About Us</h5>
+										</div>
+										
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>					
+				</div>
+			</section>
+        
+		  
+		 <section data-name="home" class="page">
+
+          <!-- Top Navbar -->
+          <nav class="navbar">
+            <div class="navbar-inner">
+              	<div class="title">Home</div>
+				<div class="right">
+					<a href="#" class="link panel-open" data-panel="left">
+						<i class="material-icons">menu</i>
+					</a>  
+				</div>
+            </div>
+          </nav>
+
+          <!-- Scrollable page content -->
+          <div class="page-content">
+            
+			 
+			   <div class="block">
+			  
+			  <div class="swiper-container swiper-init" data-speed="400" data-space-between="40" data-slides-per-view="1" data-pagination='{"el": ".swiper-pagination"}'>
+			  
+		  
+    <!-- Slides wrapper -->
+    <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide"><img src="img/home 1.jpg" class="img-fluid" width="400px"></div>
+        <div class="swiper-slide"><img src="img/home 2 .jpg" class="img-fluid" width="400px"></div>
+        <div class="swiper-slide"><img src="img/home 3.jpg" class="img-fluid" width="400px"></div>
+        
+    </div>
+    <!-- Pagination, if required -->
+    <div class="swiper-pagination"></div>
+          </div>
+				   
+
+		<h4>Trending Artists</h4>
+				   
+		  <div class="row">
+			<article class="col">
+				<div class="card">
+					
+					<div class="card-content">
+						<a href="/beyonce/">
+						<img src="img/TA 1.jpg" class="img-fluid TA" width="80px" >
+						</a>
+						<h3>Beyonce</h3>
+						
+					</div>
+				</div>
+			</article>
+			  
+			 <article class="col">
+				<div class="card">
+					
+					<div class="card-content">
+						<a href="/artist/">
+						<img src="img/TA 2.jpg" class="img-fluid TA" width="80px">
+						</a>
+						<h3>Nicky</h3>
+						
+					</div>
+				</div>
+			</article>
+			  
+			  <article class="col">
+				<div class="card">
+					
+					<div class="card-content">
+						<a href="/artist/">
+						<img src="img/TA 3.jpg" class="img-fluid TA" width="80px">
+						</a>
+						<h3>Zuma</h3>
+						
+					</div>
+				</div>
+			</article>
+			  
+			  <article class="col">
+				<div class="card">
+					
+					<div class="card-content">
+						<a href="/artist/">
+						<img src="img/TA 4.jpg" class="img-fluid TA" width="80px">
+						</a>
+						<h3>Osho</h3>
+						
+					</div>
+				</div>
+			</article>
+			   </div>
+			  
+			<h4>Top Songs</h4>
+			  
+			  <div class="row">
+			<article class="col">
+				<div class="card">
+					
+					<div class="card-content">
+						<a href="/radio/">
+						<img src="img/TS 1.jpg" class="img-fluid" width="80px" >
+						</a>
+						<h3>Celebration</h3>
+						
+					</div>
+				</div>
+			</article>
+			  
+			 <article class="col">
+				<div class="card">
+					
+					<div class="card-content">
+						<a href="/radio/">
+						<img src="img/TS 2.jpg" class="img-fluid" width="80px">
+						</a>
+						<h3>Baby</h3>
+						
+					</div>
+				</div>
+			</article>
+			  
+			  <article class="col">
+				<div class="card">
+					
+					<div class="card-content">
+						<a href="/radio/">
+						<img src="img/TS 3.jpg" class="img-fluid" width="80px">
+						</a>
+						<h3>Doors</h3>
+						
+					</div>
+				</div>
+			</article>
+			  
+			  <article class="col">
+				<div class="card">
+					
+					<div class="card-content">
+						<a href="/radio/">
+						<img src="img/TS 4.jpg" class="img-fluid" width="80px">
+						</a>
+						<h3>Queen</h3>
+						
+					</div>
+				</div>
+			</article>
+			   
+		  </div>
+			   
+		 
+		
+		 
+			  </div>
+
+          </div>
+			
+        </section>
+		  
+      </div>
+    </div>
+	
+	
+	
+	<script src="js/framework7.min.js"></script>
+	<script src="js/my-app.js"></script>
+</body>
+</html>

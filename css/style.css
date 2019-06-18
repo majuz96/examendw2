@@ -1,0 +1,43 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.TA {
+	border-radius: 50px;  
+}
+
+.zac {
+	border-radius: 40px;
+}
+
+.A {
+	border-radius: 50px;
+}
+
+.PL {
+	border-radius: 30px;
+}
+
+.R {
+	border-radius: 20px;
+}
+
+.ZP {
+	border-radius: 80px;
+}
+
+.navbar {
+	background: #B800FF !important;
+}
+
+.panel{
+	background-color: #EA9CFF !important;
+	color: #fff;
+}
+
+.center{
+	text-align: center;
+	font-weight: 500;
+}
+.parrafos{
+	text-align: justify;
+}
